@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import SearchBar from '../SearchBar'
 import Link from 'next/link'
+import ProfileDropdown from '../ProfileDropdown'
 
 function Navbar() {
   return (
@@ -21,7 +22,9 @@ function Navbar() {
       <div className='text-white'>
         <SearchBar />
       </div>
-      <div className='text-white '>profile dropdown</div>
+      <div className='text-white '>
+        <ProfileDropdown />
+      </div>
     </div >
   )
 }

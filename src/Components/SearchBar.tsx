@@ -22,7 +22,7 @@ const SearchBar = () => {
       <form onSubmit={handleSearch} className="flex w-full">
         <input
           type="text"
-          className="text-black w-full p-3 bg-[#121212] border border-gray-300 rounded-l-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="text-white w-full p-3 bg-[#121212] border border-gray-300 rounded-l-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="Search"
           value={searchQuery}
           onChange={handleInputChange}
